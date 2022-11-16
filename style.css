@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(to right, #48c6ef 0%, #6f86d6 100%);
+}
+
+.header-logo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  box-shadow: rgb(9, 61, 78) 0px 20px 30px -10px;
+}
+
+#btnClear {
+  width: 100%;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+#tasks {
+  cursor: pointer;
+}
+.container {
+  padding-top: 10px;
+  position: relative;
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  [class*="input-group"] {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  [class*="btn btn-primary"] {
+    width:200%;
+  }
+}
+
